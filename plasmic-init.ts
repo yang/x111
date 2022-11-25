@@ -1,10 +1,13 @@
+/** @format */
+
 import { initPlasmicLoader } from "@plasmicapp/loader-nextjs";
 
 export const PLASMIC = initPlasmicLoader({
   projects: [
     {
       id: "9KiDdUzjrfwdcJMfFq68Vp",
-      token: "aFssKBCpH3mCbrvnGKLLHPE6pN3cNEIoackXaNbVioycFLe9Zd9Isu8QoKmC4Is7X7whrNokQbPYfSyRRM1g",
+      token:
+        "aFssKBCpH3mCbrvnGKLLHPE6pN3cNEIoackXaNbVioycFLe9Zd9Isu8QoKmC4Is7X7whrNokQbPYfSyRRM1g",
     },
   ],
 
@@ -12,7 +15,7 @@ export const PLASMIC = initPlasmicLoader({
   // For development, you can set preview to true, which will use the unpublished
   // project, allowing you to see your designs without publishing.  Please
   // only use this for development, as this is significantly slower.
-  preview: false,
+  preview: true,
 });
 
 // You can register any code components that you want to use here; see
